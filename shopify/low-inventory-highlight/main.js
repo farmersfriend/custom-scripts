@@ -37,8 +37,16 @@ window.addEventListener('load', () => {
 				const inventoryText = inventoryArea.textContent
 				const inventory = inventoryText.split(' ')[0].replace(/,/g, '')
 
-				if (parseInt(inventory) <= 10) {
-					product.classList.add('inventory-alert')
+				if (parseInt(inventory) >= 7 && parseInt(inventory) <= 10) {
+					product.classList.add('inventory-alert-low')
+				}
+
+				if (parseInt(inventory) >= 4 && parseInt(inventory) <= 6) {
+					product.classList.add('inventory-alert-medium')
+				}
+
+				if (parseInt(inventory) <= 3 ) {
+					product.classList.add('inventory-alert-high')
 				}
 			}
 		}

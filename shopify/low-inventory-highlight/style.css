@@ -1,7 +1,23 @@
-.inventory-alert {
+.inventory-alert-low {
+    background-color: #FEF9C3;
+}
+
+.inventory-alert-low:hover {
+    background-color: #FEF08A;
+}
+
+.inventory-alert-medium {
+    background-color: #FFEDD5;
+}
+
+.inventory-alert-medium:hover {
+    background-color: #FED7AA;
+}
+
+.inventory-alert-high {
     background-color: #FEE2E2;
 }
 
-.inventory-alert:hover {
+.inventory-alert-high:hover {
     background-color: #FECACA;
 }
