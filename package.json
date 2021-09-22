@@ -1,0 +1,15 @@
+{
+  "name": "@farmersfriend/custom-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farmersfriend/custom-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farmersfriend/custom-scripts/issues"
+  },
+  "homepage": "https://github.com/farmersfriend/custom-scripts#readme"
+}
