@@ -1,0 +1,7 @@
+.inventory-alert {
+    background-color: #FEE2E2;
+}
+
+.inventory-alert:hover {
+    background-color: #FECACA;
+}
